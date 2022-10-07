@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+     <head> 
+          <title>CANAVAS TAG</title>
+     </head>
+     <body>
+        <!--contineer-->
+        <canvas Id="myId"
+                     width="400"
+                                 height="300"
+                                          style="border:2px solid black;">
+        </canvas>
+        <script>
+           var c=document.getElmentById("myId");
+            var ctx= c.getContext("2d");
+            ctx.moveTo(0,0);
+            ctx.lineTo(400,300);
+            ctx.stroke();
+        </script>
+     </body>
+</html>
+
+
